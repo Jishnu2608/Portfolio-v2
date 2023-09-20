@@ -38,9 +38,10 @@ export type ProjectDetails = {
   technologies: string[];
 };
 
-export type TestimonialDetails = {
-  personName: string;
-  personAvatar?: string | StaticImageData;
-  testimonial: string;
-  title: string;
+export type CertificateDetails = {
+  name: string;
+  description: string;
+  url: string;
+  previewImage: string | StaticImageData;
+  technologies: string[];
 };

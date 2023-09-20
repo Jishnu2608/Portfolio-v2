@@ -1,25 +1,25 @@
-import { PROJECTS } from '@/lib/data';
-import ProjectDetails from '@/components/data-display/project-details';
+import { CERTIFICATES } from '@/lib/data';
+import CertificateDetails from '@/components/data-display/certificate-details';
 import Tag from '@/components/data-display/tag';
 import Typography from '@/components/general/typography';
 import Container from '@/components/layout/container';
 
-const WorkSection = () => {
+const CertificateSection = () => {
   return (
-    <Container id="work">
+    <Container id="certificates">
       <div className="flex flex-col items-center gap-4">
         <div className="self-center">
-          <Tag label="Work" />
+          <Tag label="Certificates" />
         </div>
         <Typography variant="subtitle" className="max-w-xl text-center">
-          Some of the noteworthy projects I have built:
+          Some of the notable certificates I have earned :
         </Typography>
       </div>
 
-      {PROJECTS?.map((project, index) => (
-        <ProjectDetails
+      {CERTIFICATES?.map((certificate, index) => (
+        <CertificateDetails
           key={index}
-          {...project}
+          {...certificate}
           layoutType={index % 2 === 0 ? 'default' : 'reverse'}
         />
       ))}
@@ -27,4 +27,4 @@ const WorkSection = () => {
   );
 };
 
-export default WorkSection;
+export default CertificateSection;

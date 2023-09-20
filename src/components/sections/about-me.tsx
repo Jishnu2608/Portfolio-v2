@@ -34,75 +34,30 @@ const AboutMeSection = () => {
             A little about me :
           </Typography>
           <Typography>
-            I&apos;m a passionate,{' '}
-            <Link
-              noCustomization
-              externalLink
-              withUnderline
-              href={EXTERNAL_LINKS.FIGMA}
-            >
-              self-proclaimed designer
-            </Link>{' '}
-            who specializes in full stack development (React.js & Node.js). I am
-            enthusiastic about bringing the technical and visual aspects of
-            digital products to life. User experience, pixel perfect design, and
-            writing clear, readable, highly performant code matters to me.
+            Hello! I&apos;m a passionate developer with a strong focus on frontend development and a growing interest in cloud solutions. 
+            I derive great satisfaction from bridging the technical and visual elements of digital products. Currently, I&apos;m a proud student at Vellore Institute of Technology, Bhopal. 
+            My journey into the world of development began in 2021, and it&apos;s been an incredibly fulfilling experience. 
+            At the moment, I&apos;m immersing myself in Next.js, TailwindCSS and TypeScript - both are incredibly exciting areas to explore.
           </Typography>
+
           <Typography>
-            I began my journey as a web developer in 2015, and since then,
-            I&apos;ve continued to grow and evolve as a developer, taking on new
-            challenges and learning the latest technologies along the way. Now,
-            in my early thirties, 7 years after starting my web development
-            journey, I&apos;m building cutting-edge web applications using
-            modern technologies such as Next.js, TypeScript, Nestjs,
-            Tailwindcss, Supabase and much more.
+          Collaboration is my strong suit. I find great joy in working closely with teams and delving into collaborative projects. 
+          Learning is my constant pursuit, and I always strive to stay updated with the latest tech trends.
           </Typography>
+
           <Typography>
-            I am very much a progressive thinker and enjoy working on products
-            end to end, from ideation all the way to development.
+            Away from the computer screen, you&apos;ll often find me online, reading up on tech articles. 
+            Alternatively, I might be holding a camera, indulging in some photography. Music is another passion of mine - 
+            I thoroughly enjoy playing the piano and guitar. On the achievement front, I&apos;ve earned recognition in the world of art. 
+            I&apos;ve secured top 3 positions in over 25 painting competitions at both state and district levels. Additionally, I&apos;ve participated 
+            in notable photography competitions.
           </Typography>
+
           <Typography>
-            When I&apos;m not in full-on developer mode, you can find me
-            hovering around on twitter or on indie hacker, witnessing the
-            journey of early startups or enjoying some free time. You can follow
-            me on{' '}
-            <Link
-              noCustomization
-              externalLink
-              withUnderline
-              href={EXTERNAL_LINKS.TWITTER}
-            >
-              Twitter
-            </Link>{' '}
-            where I share tech-related bites and build in public, or you can
-            follow me on{' '}
-            <Link
-              noCustomization
-              externalLink
-              withUnderline
-              href={EXTERNAL_LINKS.GITHUB}
-            >
-              GitHub
-            </Link>
-            .
+          So, that&apos;s a glimpse into who I am - a developer, a student, an eager learner, and someone who appreciates the finer aspects of life like art and music. 
+          Let&apos;s connect and have a chat, whether it&apos;s about tech or anything else that piques your interest!
           </Typography>
-          <Typography>Finally, some quick bits about me.</Typography>
-          <div className="flex flex-col gap-2 md:flex-row md:gap-6">
-            <ul className="flex list-inside list-disc flex-col gap-2">
-              <Typography component="li">
-                B.E. in Computer Engineering
-              </Typography>
-              <Typography component="li">Full time freelancer</Typography>
-            </ul>
-            <ul className="flex list-inside list-disc flex-col gap-2">
-              <Typography component="li">Avid learner</Typography>
-              <Typography component="li">Aspiring indie hacker</Typography>
-            </ul>
-          </div>
-          <Typography>
-            One last thing, I&apos;m available for freelance work, so feel free
-            to reach out and say hello! I promise I don&apos;t bite 😉
-          </Typography>
+         
         </div>
       </div>
     </Container>

@@ -29,20 +29,23 @@ import LogoSchool from '/public/images/logos/logo-school.svg';
 import LogoCollege from '/public/images/logos/logo-college.svg';
 import LogoUniversity from '/public/images/logos/logo-university.svg';
 
-import ProjectFiskil from '/public/images/project-fiskil.png';
-import ProjectWingie from '/public/images/project-wingie.png';
-import ProjectPepehousing from '/public/images/project-pepehousing.png';
+import ProjectHeritageTrails from '/public/images/project-heritage trails.png';
+import ProjectSnapscape from '/public/images/project-snapscape.png';
+import ProjectCryptotracker from '/public/images/project-cryptotracker.png';
+import ProjectWeather from '/public/images/project-weather analysis.png';
 
-import AvatarKrisztian from '/public/images/avatar-krisztian.png';
-import AvatarEugen from '/public/images/avatar-eugen.png';
-import AvatarDummy from '/public/images/avatar-dummy.svg';
+import CertificateAWS from '/public/images/Certificate-AWS.png';
+import CertificateSQL from '/public/images/Certificate-SQL.png';
+import CertificateAI from '/public/images/Certificate-Helsinki.png';
+import CertificateSalesforce from '/public/images/Certificate-Salesforce Developer.png';
+
 
 import {
   EducationDetails,
   ExperienceDetails,
   ProjectDetails,
   TechDetails,
-  TestimonialDetails,
+  CertificateDetails,
 } from '@/lib/types';
 
 export const EXTERNAL_LINKS = {
@@ -60,12 +63,16 @@ export const NAV_LINKS = [
     href: '#about',
   },
   {
+    label: 'Career',
+    href: '#career',
+  },
+  {
     label: 'Work',
     href: '#work',
   },
   {
-    label: 'Testimonials',
-    href: '#testimonials',
+    label: 'Certificates',
+    href: '#certificates',
   },
   {
     label: 'Contact',
@@ -278,82 +285,138 @@ export const EXPERIENCES: ExperienceDetails[] = [
 
 export const PROJECTS: ProjectDetails[] = [
   {
-    name: 'Wingie',
+    name: 'Heritage Trails',
     description:
-      'A platform for comparing and finding affordable flights, as well as booking and purchasing tickets safely and easily in a few simple clicks.',
-    url: 'https://www.wingie.com',
-    previewImage: ProjectWingie,
+      'Heritage Trails is a comprehensive cultural archive app that provides one-stop information on the rich heritage of North-East India, including music, art and traditions.',
+    url: 'https://heritage-trails-main.vercel.app/',
+    previewImage: ProjectHeritageTrails,
     technologies: [
       'React',
-      'Typescript',
-      'React Bootstrap',
-      'Firebase',
-      'Express.js',
-      'PostgreSQL',
-      'Styled Components',
-      'Redux',
+      'Vitejs',
+      'Spinners',
+      'Swiper',
     ],
   },
   {
-    name: 'Fiskil',
+    name: 'Snapscape',
     description:
-      'A platform for accessing real-time open banking and energy data to help you grow your business, backed with scalable back-end infrastructure.',
-    url: 'https://fiskil.com.au',
-    previewImage: ProjectFiskil,
+      'Snapscape is a photographer - focused social media app that connects photographers around the world, enabling them to showcase their work and engage with other photographers in a supportive community.',
+    url: 'https://github.com/Jishnu2608/SnapScape',
+    previewImage: ProjectSnapscape,
     technologies: [
       'React',
-      'Next.js',
-      'Typescript',
-      'Tailwindcss',
+      'Emotion',
       'Material UI',
       'Redux Toolkit',
-      'React Query',
+      'Yup',
+      'Dropzone',
+      'Node.js',
       'Express.js',
-      'PostgreSQL',
-      'Firebase',
-      'AWS Amplify',
-      'Cypress',
-      'Storybook',
+      'Jsonwebtoken',
+      'Helmet',
+      'Morgan',
+      'Bcrypt',
+      'Multer',
     ],
   },
   {
-    name: 'Pepehousing',
+    name: 'Cryptotracker',
     description:
-      'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
-    url: 'https://pepehousing.com',
-    previewImage: ProjectPepehousing,
+      'Crypto Tracker is a user-friendly app that displays real-time cryptocurrency prices and interactive charts, powered by React and Material UI with data from the Coingecko API.',
+    url: 'https://cryptotracker-ji2608re.netlify.app/',
+    previewImage: ProjectCryptotracker,
     technologies: [
       'React',
-      'Next.js',
-      'Typescript',
-      'Tailwindcss',
-      'Redux Toolkit',
-      'React Query',
-      'Storybook',
+      'Emotion',
+      'Material UI',
+      'Axios',
+      'Load Spinners',
+      'TradingView Widget',
+      'CoinGecko API',
+    ],
+  },
+  {
+    name: 'Weather Analysis',
+    description:
+      "The Weather Analysis Project conducts detailed research on weather patterns, collecting data on temperature, precipitation, humidity, and more in key regions. This project offers valuable insights through data visualizations, helping users understand India's climate and make informed decisions.",
+    url: 'https://github.com/Jishnu2608/Weather-Analysis',
+    previewImage: ProjectWeather,
+    technologies: [
+      'Jupyter Notebook',
+      'Pandas',
+      'Matplotlib',
+      'Seaborn',
+      'Numpy',
+      'Plotly Express',
     ],
   },
 ];
 
-export const TESTIMONIALS: TestimonialDetails[] = [
+export const CERTIFICATES: CertificateDetails[] = [
   {
-    personName: 'Krisztian Gyuris',
-    personAvatar: AvatarKrisztian,
-    title: 'Founder - inboxgenie.io',
-    testimonial:
-      'Job well done! I am really impressed. He is very very good at what he does:) I would recommend Sagar and will rehire in the future for Frontend development.',
+    name: 'AWS Cloud Practitioner',
+    description:
+      'The AWS Cloud Practitioner Certificate is a foundational credential that demonstrates a solid understanding of Amazon Web Services (AWS) essentials, including services, pricing, and cloud computing fundamentals. It serves as a great starting point for a career in AWS, validating my proficiency in cloud technology.',
+    url: 'https://heritage-trails-main.vercel.app/',
+    previewImage: CertificateAWS,
+    technologies: [
+      'Amazon EC2',
+      'Amazon S3',
+      'Amazon RDS',
+      'Amazon VPC',
+      'AWS IAM',
+      'AWS Lambda',
+      'AWS CloudWatch',
+      'AWS SNS',
+    ],
   },
   {
-    personName: 'Eugen Esanu',
-    personAvatar: AvatarEugen,
-    title: 'Founder - shosho.design',
-    testimonial:
-      'Great guy, highly recommended for any COMPLEX front-end development job! His skills are top-notch and he will be an amazing addition to any team.',
+    name: 'Hackerrank SQL Intermediate',
+    description:
+      'The HackerRank SQL Intermediate Certificate is a professional acknowledgment of my competence in SQL, demonstrating my ability to solve complex database queries and perform data analysis tasks effectively. It showcases my expertise in using SQL to tackle real-world data challenges.',
+    url: 'https://github.com/Jishnu2608/SnapScape',
+    previewImage: CertificateSQL,
+    technologies: [
+      'Data Filtering',
+      'Joins and Relationships',
+      'Aggregate Functions',
+      'Indexing',
+      'Subqueries',
+      'Grouping Data',
+      'Working with Dates',
+      'Data Modification',
+    ],
   },
   {
-    personName: 'Joe Matkin',
-    personAvatar: AvatarDummy,
-    title: 'Freelancer',
-    testimonial:
-      'Sagar was extremely easy and pleasant to work with and he truly cares about the project being a success. Sagar has a high level of knowledge and was able to work on my MERN stack application without any issues.',
+    name: 'Introduction to AI - Reaktor',
+    description:
+      "The Introduction to AI course from the University of Helsinki is an enriching learning experience that delves into the fundamental principles of Artificial Intelligence (AI), equipping me with valuable insights into machine learning, neural networks, and AI applications. It's a comprehensive foundation for understanding and working with AI technologies.",
+    url: 'https://cryptotracker-ji2608re.netlify.app/',
+    previewImage: CertificateAI,
+    technologies: [
+      'Machine Learning',
+      'Neural Networks',
+      'AI Applications',
+      'Data Analysis',
+      'Statistics',
+      'AI Foundations',
+      'AI Ethics',
+    ],
+  },
+  {
+    name: 'Weather Analysis',
+    description:
+      "The Salesforce Developer Externship Certificate by Smartbridge signifies my successful completion of a hands-on externship program, during which I gained practical experience in developing solutions on the Salesforce platform. It validates my ability to design and implement Salesforce applications effectively.",
+    url: 'https://github.com/Jishnu2608/Weather-Analysis',
+    previewImage: CertificateSalesforce,
+    technologies: [
+      'Lightning App Builder',
+      'Custom Objects',
+      'Profiles and Permission Sets',
+      'Data Validation Rules',
+      'Record Types',
+      'Formula Fields',
+      'Reports and Dashboard Permissions',
+    ],
   },
 ];
