@@ -1,10 +1,7 @@
 import Image from 'next/image';
-import { ExternalLink } from 'lucide-react';
-
 import { CertificateDetails as CertificateDetailsType } from '@/lib/types';
 import { mergeClasses } from '@/lib/utils';
 import Typography from '@/components/general/typography';
-import Link from '@/components/navigation/link';
 import Tag from '@/components/data-display/tag';
 import Card from '@/components/layout/card';
 
@@ -16,7 +13,6 @@ const CertificateDetails = ({
   name,
   description,
   technologies,
-  url,
   previewImage,
   layoutType = 'default',
 }: CertificateDetailsProps) => {

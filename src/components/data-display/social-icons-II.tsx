@@ -3,7 +3,7 @@
 import { SOCIAL_LINKS_II } from '@/lib/data';
 import IconButton from '@/components/general/icon-button';
 
-const SocialIcons = () => {
+const SocialIconsII = () => {
   return (
     <div className="flex gap-1">
       {SOCIAL_LINKS_II.map((socialLink, index) => (
@@ -18,4 +18,4 @@ const SocialIcons = () => {
   );
 };
 
-export default SocialIcons;
+export default SocialIconsII;
