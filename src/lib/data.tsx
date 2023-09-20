@@ -1,4 +1,4 @@
-import { Github, Twitter, Figma } from 'lucide-react';
+import { Github, Twitter, Linkedin} from 'lucide-react';
 
 import LogoJavascript from '/public/images/logos/icon-javascript.svg';
 import LogoTypescript from '/public/images/logos/icon-typescript.svg';
@@ -7,18 +7,19 @@ import LogoNextjs from '/public/images/logos/icon-nextjs.svg';
 import LogoNodejs from '/public/images/logos/icon-nodejs.svg';
 import LogoExpress from '/public/images/logos/icon-express.svg';
 import LogoExpressLight from '/public/images/logos/icon-express-light.svg';
-import LogoNest from '/public/images/logos/icon-nest.svg';
-import LogoSocket from '/public/images/logos/icon-socket.svg';
-import LogoSocketLight from '/public/images/logos/icon-socket-light.svg';
-import LogoPostgreSQL from '/public/images/logos/icon-postgresql.svg';
 import LogoMongoDB from '/public/images/logos/icon-mongodb.svg';
-import LogoSass from '/public/images/logos/icon-sass.svg';
 import LogoTailwindcss from '/public/images/logos/icon-tailwindcss.svg';
-import LogoFigma from '/public/images/logos/icon-figma.svg';
-import LogoCypress from '/public/images/logos/icon-cypress.svg';
-import LogoCypressLight from '/public/images/logos/icon-cypress-light.svg';
-import LogoStorybook from '/public/images/logos/icon-storybook.svg';
 import LogoGit from '/public/images/logos/icon-git.svg';
+import LogoHTML from '/public/images/logos/icon-html.svg';
+import LogoAWS from '/public/images/logos/icon-aws.svg';
+import LogoAWSLight from '/public/images/logos/icon-aws-light.svg';
+import LogoSalesforce from '/public/images/logos/icon-salesforce.svg';
+import LogoMySQL from '/public/images/logos/icon-mysql.svg';
+import LogoJava from '/public/images/logos/icon-java.svg';
+import LogoPython from '/public/images/logos/icon-python.svg';
+import LogoCSS from '/public/images/logos/icon-css.svg';
+import LogoGCP from '/public/images/logos/icon-gcp.svg';
+import LogoPostman from '/public/images/logos/icon-postman.svg';
 
 import LogoUpwork from '/public/images/logos/logo-upwork.svg';
 import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
@@ -72,19 +73,43 @@ export const NAV_LINKS = [
 export const SOCIAL_LINKS = [
   {
     icon: Github,
-    url: 'https://github.com/shahsagarm',
+    url: 'https://github.com/Jishnu2608',
   },
   {
     icon: Twitter,
     url: 'https://twitter.com/shahsagarm',
   },
   {
-    icon: Figma,
-    url: 'https://www.figma.com/@shahsagarm',
+    icon: Linkedin,
+    url: 'https://www.linkedin.com/in/jishnudeep-borah/',
   },
 ];
 
 export const TECHNOLOGIES: TechDetails[] = [
+
+  {
+    label: 'Java',
+    logo: LogoJava,
+    url: 'https://www.java.com/en/',
+  },
+
+  {
+    label: 'Python',
+    logo: LogoPython,
+    url: 'https://www.python.org/',
+  },
+  {
+    label: 'HTML',
+    logo: LogoHTML,
+    url: 'https://developer.mozilla.org/en-US/docs/Web/HTML',
+  },
+
+  {
+    label: 'CSS',
+    logo: LogoCSS,
+    url: 'https://www.css3.com/',
+  },
+
   {
     label: 'Javascript',
     logo: LogoJavascript,
@@ -95,6 +120,8 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoTypescript,
     url: 'https://www.typescriptlang.org/',
   },
+ 
+  
   {
     label: 'React',
     logo: LogoReact,
@@ -105,6 +132,8 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoNextjs,
     url: 'https://nextjs.org/',
   },
+  
+  
   {
     label: 'Node.js',
     logo: LogoNodejs,
@@ -116,57 +145,55 @@ export const TECHNOLOGIES: TechDetails[] = [
     darkModeLogo: LogoExpressLight,
     url: 'https://expressjs.com/',
   },
-  {
-    label: 'Nest.js',
-    logo: LogoNest,
-    url: 'https://nestjs.com/',
-  },
-  {
-    label: 'Socket.io',
-    logo: LogoSocket,
-    darkModeLogo: LogoSocketLight,
-    url: 'https://socket.io/',
-  },
-  {
-    label: 'PostgreSQL',
-    logo: LogoPostgreSQL,
-    url: 'https://www.postgresql.org/',
-  },
+
   {
     label: 'MongoDB',
     logo: LogoMongoDB,
     url: 'https://www.mongodb.com/',
   },
+
   {
-    label: 'Sass/Scss',
-    logo: LogoSass,
-    url: 'https://sass-lang.com/',
+    label: 'MySQL',
+    logo: LogoMySQL,
+    url: 'https://www.mysql.com/',
   },
+  
+  {
+    label: 'AWS',
+    logo: LogoAWS,
+    darkModeLogo: LogoAWSLight,
+    url: 'https://aws.amazon.com/',
+  },
+
+  {
+    label: 'Google Cloud',
+    logo: LogoGCP,
+    url: 'https://cloud.google.com/',
+  },
+
+  {
+    label: 'Salesforce',
+    logo: LogoSalesforce,
+    url: 'https://www.salesforce.com/in/',
+  },
+  
+  
   {
     label: 'Tailwindcss',
     logo: LogoTailwindcss,
     url: 'https://tailwindcss.com/',
   },
-  {
-    label: 'Figma',
-    logo: LogoFigma,
-    url: 'https://www.figma.com/',
-  },
-  {
-    label: 'Cypress',
-    logo: LogoCypress,
-    darkModeLogo: LogoCypressLight,
-    url: 'https://www.cypress.io/',
-  },
-  {
-    label: 'Storybook',
-    logo: LogoStorybook,
-    url: 'https://storybook.js.org/',
-  },
+ 
   {
     label: 'Git',
     logo: LogoGit,
     url: 'https://git-scm.com/',
+  },
+
+  {
+    label: 'Postman',
+    logo: LogoPostman,
+    url: 'https://www.postman.com/',
   },
 ];
 

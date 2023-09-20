@@ -1,28 +1,30 @@
-import { TESTIMONIALS } from '@/lib/data';
+import { PROJECTS } from '@/lib/data';
+import ProjectDetails from '@/components/data-display/project-details';
 import Tag from '@/components/data-display/tag';
-import TestimonialDetails from '@/components/data-display/testimonial-details';
 import Typography from '@/components/general/typography';
 import Container from '@/components/layout/container';
 
-const TestimonialsSection = () => {
+const WorkSection = () => {
   return (
-    <Container id="testimonials" className="bg-gray-50">
+    <Container id="work">
       <div className="flex flex-col items-center gap-4">
         <div className="self-center">
-          <Tag label="Testimonials" />
+          <Tag label="Work" />
         </div>
         <Typography variant="subtitle" className="max-w-xl text-center">
-          Nice things people have said about me:
+          Some of the noteworthy projects I have built:
         </Typography>
       </div>
 
-      <div className="flex gap-12 max-md:flex-col md:max-lg:flex-wrap">
-        {TESTIMONIALS?.map((testimonial, index) => (
-          <TestimonialDetails key={index} {...testimonial} />
-        ))}
-      </div>
+      {PROJECTS?.map((project, index) => (
+        <ProjectDetails
+          key={index}
+          {...project}
+          layoutType={index % 2 === 0 ? 'default' : 'reverse'}
+        />
+      ))}
     </Container>
   );
 };
 
-export default TestimonialsSection;
+export default WorkSection;
