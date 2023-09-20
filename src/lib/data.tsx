@@ -1,9 +1,10 @@
-import { Github, Twitter, Linkedin} from 'lucide-react';
+import { Github, Twitter, Linkedin, Instagram, Facebook} from 'lucide-react';
 
 import LogoJavascript from '/public/images/logos/icon-javascript.svg';
 import LogoTypescript from '/public/images/logos/icon-typescript.svg';
 import LogoReact from '/public/images/logos/icon-react.svg';
 import LogoNextjs from '/public/images/logos/icon-nextjs.svg';
+import LogoNextjsLight from '/public/images/logos/icon-nextjs-light.svg';
 import LogoNodejs from '/public/images/logos/icon-nodejs.svg';
 import LogoExpress from '/public/images/logos/icon-express.svg';
 import LogoExpressLight from '/public/images/logos/icon-express-light.svg';
@@ -21,11 +22,12 @@ import LogoCSS from '/public/images/logos/icon-css.svg';
 import LogoGCP from '/public/images/logos/icon-gcp.svg';
 import LogoPostman from '/public/images/logos/icon-postman.svg';
 
-import LogoUpwork from '/public/images/logos/logo-upwork.svg';
-import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
-import LogoGreenApexLight from '/public/images/logos/logo-greenapex-light.svg';
-import LogoDotnpixel from '/public/images/logos/logo-dotnpixel.svg';
-import LogoDotnpixelLight from '/public/images/logos/logo-dotnpixel-light.svg';
+import Smartbridge from '/public/images/logos/smartbridge.png';
+import Devtown from '/public/images/logos/devtown.png';
+
+import LogoSchool from '/public/images/logos/logo-school.svg';
+import LogoCollege from '/public/images/logos/logo-college.svg';
+import LogoUniversity from '/public/images/logos/logo-university.svg';
 
 import ProjectFiskil from '/public/images/project-fiskil.png';
 import ProjectWingie from '/public/images/project-wingie.png';
@@ -36,6 +38,7 @@ import AvatarEugen from '/public/images/avatar-eugen.png';
 import AvatarDummy from '/public/images/avatar-dummy.svg';
 
 import {
+  EducationDetails,
   ExperienceDetails,
   ProjectDetails,
   TechDetails,
@@ -75,16 +78,28 @@ export const SOCIAL_LINKS = [
     icon: Github,
     url: 'https://github.com/Jishnu2608',
   },
-  {
-    icon: Twitter,
-    url: 'https://twitter.com/shahsagarm',
-  },
+  
   {
     icon: Linkedin,
     url: 'https://www.linkedin.com/in/jishnudeep-borah/',
   },
 ];
 
+
+export const SOCIAL_LINKS_II= [
+  {
+    icon: Instagram,
+    url: 'https://www.instagram.com/_reonnie_/',
+  },
+  {
+    icon: Facebook,
+    url: 'https://www.facebook.com/jishnudeep.borah.7/',
+  },
+  {
+    icon: Twitter,
+    url: 'https://twitter.com/JishnudeepBorah',
+  },
+];
 export const TECHNOLOGIES: TechDetails[] = [
 
   {
@@ -130,6 +145,7 @@ export const TECHNOLOGIES: TechDetails[] = [
   {
     label: 'Next.js',
     logo: LogoNextjs,
+    darkModeLogo: LogoNextjsLight,
     url: 'https://nextjs.org/',
   },
   
@@ -197,41 +213,66 @@ export const TECHNOLOGIES: TechDetails[] = [
   },
 ];
 
-export const EXPERIENCES: ExperienceDetails[] = [
+export const EDUCATION: EducationDetails[] = [
   {
-    logo: LogoUpwork,
-    logoAlt: 'Upwork logo',
-    position: 'Independent Freelancer',
-    startDate: new Date(2021, 10),
-    currentlyWorkHere: true,
+    logo: LogoUniversity,
+    logoAlt: 'VIT Bhopal',
+    position: 'Vellore Institute of Technology, Bhopal',
+    startDate: new Date(2020, 8),
+    endDate: new Date(2024, 8),
     summary: [
-      'Worked for various clients like Fiskil, Shosho, Crowe MacKay LLP.',
-      'Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, Storybook, Cypress, and others.',
+      'CGPA : 8.74',
+      'Relevant Coursework: Software Engineering; Operating Systems; DBMS; Algorithms',
     ],
   },
   {
-    logo: LogoGreenApex,
-    darkModeLogo: LogoGreenApexLight,
+    logo: LogoCollege,
+    logoAlt: 'darrang college',
+    position: 'Darrang College',
+    startDate: new Date(2018, 4),
+    endDate: new Date(2020, 4),
+    summary: [
+      'Percentage: 85.4%',
+      'Relevant Coursework: Physics; Chemistry; Mathematics; Biology; English',
+    ],
+  },
+  {
+    logo: LogoSchool,
+    logoAlt: 'don bosco high school',
+    position: 'Don Bosco High School',
+    startDate: new Date(2008, 0),
+    endDate: new Date(2018, 4),
+    summary: [
+      'Percentage: 95%',
+      'Relevant Coursework: Mathematics; Science; Social Science; English; Adv. Mathematics; Assamese',
+    ],
+  },
+];
+
+export const EXPERIENCES: ExperienceDetails[] = [
+  {
+    logo: Smartbridge,
+    logoAlt: 'smartbridge',
+    position: 'Salesforce Developer Externship',
+    startDate: new Date(2021, 10),
+    endDate: new Date(2021, 9),
+    summary: [
+      'Excelled in Salesforce CRM, optimizing operations and workflows through comprehensive training and practical experience.',
+      'Customized and integrated Salesforce functionalities, enhancing platform capabilities and user experiences.',
+      'Developed impactfulreports and dashboards, delivering actionable insights to stakeholders forinformed decisions.',
+    ],
+  },
+  {
+    logo: Devtown,
     logoAlt: 'Greenapex logo',
-    position: 'Team Lead',
+    position: 'Full stack Internship',
     startDate: new Date(2017, 6),
     endDate: new Date(2021, 9),
     summary: [
-      'Acted as team lead in different projects.',
-      'Brainstormed new ideas & gathered requirements for internal projects.',
-      'Designed architecture of different projects (frontend + backend).',
-      'Worked on enterprise-level projects for a variety of clients.',
-      'Handled sprint planning & task distribution.',
+      'Collaborated in a dynamic team to conceive, design, and implement innovative website features, enhancing web development proficiency during an intensive training program.',
+      "Thoroughly ensured the smooth functionality of the company's website through rigorous testing and troubleshooting, gaining practical experience in website performance maintenance.",
+      'Contributed to suggesting and implementing user-centric improvements, thereby enhancing skills in optimizing the user experience and increasing engagement.',
     ],
-  },
-  {
-    logo: LogoDotnpixel,
-    darkModeLogo: LogoDotnpixelLight,
-    logoAlt: 'Dotnpixel logo',
-    position: 'Full Stack Developer',
-    startDate: new Date(2015, 11),
-    endDate: new Date(2017, 4),
-    summary: ['Worked as a full stack developer (React / Laravel).'],
   },
 ];
 

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { MapPin } from 'lucide-react';
 
 import Headshot from '/public/images/headshot.jpeg';
-import SocialIcons from '@/components/data-display/social-icons';
+import SocialIcons from '@/components/data-display/social-icons-I';
 import Typography from '@/components/general/typography';
 import Container from '@/components/layout/container';
 
@@ -33,7 +33,7 @@ const HeroSection = () => {
             <Typography>
             I&apos;m a frontend developer with a passion for crafting remarkable digital experiences 
             that are both fast and visually stunning. My expertise lies in React.js and Node.js, 
-            and I&apos;ve been dedicated to this craft for over 7 years. While I thoroughly enjoy creating 
+            and I&apos;ve been dedicated to this craft for over 2 years. While I thoroughly enjoy creating 
             web applications, I&apos;m also aspiring to expand my horizons. I&apos;m currently working towards 
             becoming an AWS Certified Cloud Solutions Architect and embarking on a Salesforce Trailhead 
             expedition. Embracing the world of cloud computing and mastering Salesforce&apos;s capabilities 
