@@ -4,8 +4,7 @@ import BoyVector from '/public/images/boy-vector.png';
 import Tag from '@/components/data-display/tag';
 import Container from '@/components/layout/container';
 import Typography from '@/components/general/typography';
-import Link from '@/components/navigation/link';
-import { EXTERNAL_LINKS } from '@/lib/data';
+
 
 const AboutMeSection = () => {
   return (

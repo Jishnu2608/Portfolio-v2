@@ -48,15 +48,6 @@ import {
   CertificateDetails,
 } from '@/lib/types';
 
-export const EXTERNAL_LINKS = {
-  GITHUB: 'https://github.com/shahsagarm',
-  GITHUB_REPO: 'https://github.com/shahsagarm/sagarshah.dev',
-  TWITTER: 'https://twitter.com/shahsagarm',
-  FIGMA: 'https://www.figma.com/@shahsagarm',
-  FIGMA_FILE:
-    'https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop',
-};
-
 export const NAV_LINKS = [
   {
     label: 'About',
@@ -357,7 +348,6 @@ export const CERTIFICATES: CertificateDetails[] = [
     name: 'AWS Cloud Practitioner',
     description:
       'The AWS Cloud Practitioner Certificate is a foundational credential that demonstrates a solid understanding of Amazon Web Services (AWS) essentials, including services, pricing, and cloud computing fundamentals. It serves as a great starting point for a career in AWS, validating my proficiency in cloud technology.',
-    url: 'https://heritage-trails-main.vercel.app/',
     previewImage: CertificateAWS,
     technologies: [
       'Amazon EC2',
@@ -374,7 +364,6 @@ export const CERTIFICATES: CertificateDetails[] = [
     name: 'Hackerrank SQL Intermediate',
     description:
       'The HackerRank SQL Intermediate Certificate is a professional acknowledgment of my competence in SQL, demonstrating my ability to solve complex database queries and perform data analysis tasks effectively. It showcases my expertise in using SQL to tackle real-world data challenges.',
-    url: 'https://github.com/Jishnu2608/SnapScape',
     previewImage: CertificateSQL,
     technologies: [
       'Data Filtering',
@@ -391,7 +380,6 @@ export const CERTIFICATES: CertificateDetails[] = [
     name: 'Introduction to AI - Reaktor',
     description:
       "The Introduction to AI course from the University of Helsinki is an enriching learning experience that delves into the fundamental principles of Artificial Intelligence (AI), equipping me with valuable insights into machine learning, neural networks, and AI applications. It's a comprehensive foundation for understanding and working with AI technologies.",
-    url: 'https://cryptotracker-ji2608re.netlify.app/',
     previewImage: CertificateAI,
     technologies: [
       'Machine Learning',
@@ -407,7 +395,6 @@ export const CERTIFICATES: CertificateDetails[] = [
     name: 'Weather Analysis',
     description:
       "The Salesforce Developer Externship Certificate by Smartbridge signifies my successful completion of a hands-on externship program, during which I gained practical experience in developing solutions on the Salesforce platform. It validates my ability to design and implement Salesforce applications effectively.",
-    url: 'https://github.com/Jishnu2608/Weather-Analysis',
     previewImage: CertificateSalesforce,
     technologies: [
       'Lightning App Builder',

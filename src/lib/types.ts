@@ -41,7 +41,6 @@ export type ProjectDetails = {
 export type CertificateDetails = {
   name: string;
   description: string;
-  url: string;
   previewImage: string | StaticImageData;
   technologies: string[];
 };
