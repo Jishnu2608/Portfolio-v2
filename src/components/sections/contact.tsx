@@ -12,7 +12,8 @@ import useWindowSize from '@/hooks/use-window-size';
 import { copyTextToClipboard } from '@/lib/utils';
 
 let email = 'jishnudeepborah@gmail.com';
-let phone = '+91 9365514936';
+let phone1 = '+91 9365514936';
+let phone2 = '+91 8822978435';
 
 type CopyValue = 'email' | 'phone';
 
@@ -69,12 +70,27 @@ const ContactSection = () => {
           </div>
           <div className="flex items-center gap-4 md:gap-5">
             <Phone className="h-6 w-6 md:h-8 md:w-8" />
-            <a href={`tel:${phone.replace(' ', '')}`}>
-            <Typography variant="h2">{phone}</Typography>
+            <a href={`tel:${phone1.replace(' ', '')}`}>
+            <Typography variant="h2">{phone1}</Typography>
             </a>
             <IconButton
               size={width && width < 768 ? 'md' : 'lg'}
-              onClick={() => handleCopyClick(phone.replace(' ', ''), 'phone')}
+              onClick={() => handleCopyClick(phone1.replace(' ', ''), 'phone')}
+              showTooltip={isCopied && copiedValueType === 'phone'}
+              tooltipText="Copied!"
+            >
+              <Copy />
+            </IconButton>
+          </div>
+
+          <div className="flex items-center gap-4 md:gap-5">
+            <Phone className="h-6 w-6 md:h-8 md:w-8" />
+            <a href={`tel:${phone2.replace(' ', '')}`}>
+            <Typography variant="h2">{phone2}</Typography>
+            </a>
+            <IconButton
+              size={width && width < 768 ? 'md' : 'lg'}
+              onClick={() => handleCopyClick(phone2.replace(' ', ''), 'phone')}
               showTooltip={isCopied && copiedValueType === 'phone'}
               tooltipText="Copied!"
             >
