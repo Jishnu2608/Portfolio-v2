@@ -235,7 +235,7 @@ export const EDUCATION: EducationDetails[] = [
   {
     logo: LogoCollege,
     logoAlt: 'darrang college',
-    position: 'Darrang College',
+    position: 'Darrang College, Tezpur',
     startDate: new Date(2018, 4),
     endDate: new Date(2020, 4),
     summary: [
@@ -246,7 +246,7 @@ export const EDUCATION: EducationDetails[] = [
   {
     logo: LogoSchool,
     logoAlt: 'don bosco high school',
-    position: 'Don Bosco High School',
+    position: 'Don Bosco High School, Tezpur',
     startDate: new Date(2008, 0),
     endDate: new Date(2018, 4),
     summary: [
@@ -261,8 +261,8 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logo: Smartbridge,
     logoAlt: 'smartbridge',
     position: 'Salesforce Developer Externship',
-    startDate: new Date(2021, 10),
-    endDate: new Date(2021, 9),
+    startDate: new Date(2023, 5),
+    endDate: new Date(2023, 6),
     summary: [
       'Excelled in Salesforce CRM, optimizing operations and workflows through comprehensive training and practical experience.',
       'Customized and integrated Salesforce functionalities, enhancing platform capabilities and user experiences.',
