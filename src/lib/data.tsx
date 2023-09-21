@@ -262,8 +262,8 @@ export const EXPERIENCES: ExperienceDetails[] = [
   },
   {
     logo: Devtown,
-    logoAlt: 'Greenapex logo',
-    position: 'Full stack Internship',
+    logoAlt: 'devtown',
+    position: 'Full stack Web Dev Internship',
     startDate: new Date(2017, 6),
     endDate: new Date(2021, 9),
     summary: [
