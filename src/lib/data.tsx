@@ -264,7 +264,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logo: Devtown,
     logoAlt: 'devtown',
     position: 'Full stack Web Dev Internship',
-    startDate: new Date(2017, 6),
+    startDate: new Date(2021, 6),
     endDate: new Date(2021, 8),
     summary: [
       'Collaborated in a dynamic team to conceive, design, and implement innovative website features, enhancing web development proficiency during an intensive training program.',
