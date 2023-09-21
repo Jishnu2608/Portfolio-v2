@@ -252,7 +252,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logo: Smartbridge,
     logoAlt: 'smartbridge',
     position: 'Salesforce Developer Externship',
-    startDate: new Date(2023, 5),
+    startDate: new Date(2023, 4),
     endDate: new Date(2023, 6),
     summary: [
       'Excelled in Salesforce CRM, optimizing operations and workflows through comprehensive training and practical experience.',
