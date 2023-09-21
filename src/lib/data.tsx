@@ -392,7 +392,7 @@ export const CERTIFICATES: CertificateDetails[] = [
     ],
   },
   {
-    name: 'Weather Analysis',
+    name: 'Smartbridge - Salesforce Developer',
     description:
       "The Salesforce Developer Externship Certificate by Smartbridge signifies my successful completion of a hands-on externship program, during which I gained practical experience in developing solutions on the Salesforce platform. It validates my ability to design and implement Salesforce applications effectively.",
     previewImage: CertificateSalesforce,
