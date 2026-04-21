@@ -1,51 +1,50 @@
 import { Github, Twitter, Linkedin, Instagram, Facebook} from 'lucide-react';
 
-import LogoJavascript from '/public/images/logos/icon-javascript.svg';
-import LogoTypescript from '/public/images/logos/icon-typescript.svg';
-import LogoReact from '/public/images/logos/icon-react.svg';
-import LogoNextjs from '/public/images/logos/icon-nextjs.svg';
-import LogoNextjsLight from '/public/images/logos/icon-nextjs-light.svg';
-import LogoNodejs from '/public/images/logos/icon-nodejs.svg';
-import LogoExpress from '/public/images/logos/icon-express.svg';
-import LogoExpressLight from '/public/images/logos/icon-express-light.svg';
-import LogoMongoDB from '/public/images/logos/icon-mongodb.svg';
-import LogoTailwindcss from '/public/images/logos/icon-tailwindcss.svg';
-import LogoGit from '/public/images/logos/icon-git.svg';
-import LogoHTML from '/public/images/logos/icon-html.svg';
-import LogoAWS from '/public/images/logos/icon-aws.svg';
-import LogoAWSLight from '/public/images/logos/icon-aws-light.svg';
-import LogoSalesforce from '/public/images/logos/icon-salesforce.svg';
-import LogoMySQL from '/public/images/logos/icon-mysql.svg';
-import LogoJava from '/public/images/logos/icon-java.svg';
-import LogoPython from '/public/images/logos/icon-python.svg';
-import LogoCSS from '/public/images/logos/icon-css.svg';
-import LogoGCP from '/public/images/logos/icon-gcp.svg';
-import LogoPostman from '/public/images/logos/icon-postman.svg';
-import LogoGemini from '/public/images/logos/icon-gemini.svg';
-import LogoClaude from '/public/images/logos/icon-claude.svg';
-import LogoChatgpt from '/public/images/logos/icon-chatgpt.svg';
-import LogoPerplexity from '/public/images/logos/icon-perplexity.svg';
-import LogoDatabricks from '/public/images/logos/icon-databricks.svg';
-import LogoPowerbi from '/public/images/logos/icon-powerbi.svg'
+import LogoJavascript from 'public/images/logos/icon-javascript.svg';
+import LogoTypescript from 'public/images/logos/icon-typescript.svg';
+import LogoReact from 'public/images/logos/icon-react.svg';
+import LogoNextjs from 'public/images/logos/icon-nextjs.svg';
+import LogoNextjsLight from 'public/images/logos/icon-nextjs-light.svg';
+import LogoNodejs from 'public/images/logos/icon-nodejs.svg';
+import LogoExpress from 'public/images/logos/icon-express.svg';
+import LogoExpressLight from 'public/images/logos/icon-express-light.svg';
+import LogoMongoDB from 'public/images/logos/icon-mongodb.svg';
+import LogoTailwindcss from 'public/images/logos/icon-tailwindcss.svg';
+import LogoGit from 'public/images/logos/icon-git.svg';
+import LogoHTML from 'public/images/logos/icon-html.svg';
+import LogoAWS from 'public/images/logos/icon-aws.svg';
+import LogoAWSLight from 'public/images/logos/icon-aws-light.svg';
+import LogoSalesforce from 'public/images/logos/icon-salesforce.svg';
+import LogoMySQL from 'public/images/logos/icon-mysql.svg';
+import LogoJava from 'public/images/logos/icon-java.svg';
+import LogoPython from 'public/images/logos/icon-python.svg';
+import LogoCSS from 'public/images/logos/icon-css.svg';
+import LogoGCP from 'public/images/logos/icon-gcp.svg';
+import LogoPostman from 'public/images/logos/icon-postman.svg';
+import LogoGemini from 'public/images/logos/icon-gemini.svg';
+import LogoClaude from 'public/images/logos/icon-claude.svg';
+import LogoChatgpt from 'public/images/logos/icon-chatgpt.svg';
+import LogoPerplexity from 'public/images/logos/icon-perplexity.svg';
+import LogoDatabricks from 'public/images/logos/icon-databricks.svg';
+import LogoPowerbi from 'public/images/logos/icon-powerbi.svg';
 
-// import Latentview from '/public/images/logos/latentview.png'
-import Smartbridge from '/public/images/logos/smartbridge.png';
-import Devtown from '/public/images/logos/devtown.png';
+// import Latentview from 'public/images/logos/latentview.png'
+import Smartbridge from 'public/images/logos/smartbridge.png';
+import Devtown from 'public/images/logos/devtown.png';
 
-import LogoSchool from '/public/images/logos/logo-school.svg';
-import LogoCollege from '/public/images/logos/logo-college.svg';
-import LogoUniversity from '/public/images/logos/logo-university.svg';
+import LogoSchool from 'public/images/logos/logo-school.svg';
+import LogoCollege from 'public/images/logos/logo-college.svg';
+import LogoUniversity from 'public/images/logos/logo-university.svg';
 
-import ProjectHeritageTrails from '/public/images/project-heritage trails.png';
-import ProjectSnapscape from '/public/images/project-snapscape.png';
-import ProjectCryptotracker from '/public/images/project-cryptotracker.png';
-import ProjectWeather from '/public/images/project-weather analysis.png';
+import ProjectHeritageTrails from 'public/images/project-heritage trails.png';
+import ProjectSnapscape from 'public/images/project-snapscape.png';
+import ProjectCryptotracker from 'public/images/project-cryptotracker.png';
+import ProjectWeather from 'public/images/project-weather analysis.png';
 
-import CertificateAWS from '/public/images/Certificate-AWS.png';
-import CertificateSQL from '/public/images/Certificate-SQL.png';
-import CertificateAI from '/public/images/Certificate-Helsinki.png';
-import CertificateSalesforce from '/public/images/Certificate-Salesforce Developer.png';
-
+import CertificateAWS from 'public/images/Certificate-AWS.png';
+import CertificateSQL from 'public/images/Certificate-SQL.png';
+import CertificateAI from 'public/images/Certificate-Helsinki.png';
+import CertificateSalesforce from 'public/images/Certificate-Salesforce Developer.png';
 
 import {
   EducationDetails,

@@ -5,7 +5,7 @@ import Typography from '@/components/general/typography';
 import Link from '@/components/navigation/link';
 import ImageWrapper from '@/components/data-display/image-wrapper';
 
-const TechDetails = ({ url, logo, darkModeLogo, label }: TechDetails) => {
+const TechItem = ({ url, logo, darkModeLogo, label }: TechDetails) => {
   return (
     <div className="flex flex-col items-center gap-2">
       <Link noCustomization href={url} externalLink>
@@ -13,6 +13,8 @@ const TechDetails = ({ url, logo, darkModeLogo, label }: TechDetails) => {
           src={logo}
           srcForDarkMode={darkModeLogo}
           alt={label}
+          width={60}
+          height={60}
           className="transition-transform duration-300 md:hover:scale-110"
         />
       </Link>
@@ -21,4 +23,4 @@ const TechDetails = ({ url, logo, darkModeLogo, label }: TechDetails) => {
   );
 };
 
-export default TechDetails;
+export default TechItem;
