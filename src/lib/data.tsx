@@ -21,7 +21,14 @@ import LogoPython from '/public/images/logos/icon-python.svg';
 import LogoCSS from '/public/images/logos/icon-css.svg';
 import LogoGCP from '/public/images/logos/icon-gcp.svg';
 import LogoPostman from '/public/images/logos/icon-postman.svg';
+import LogoGemini from '/public/images/logos/icon-gemini.svg';
+import LogoClaude from '/public/images/logos/icon-claude.svg';
+import LogoChatgpt from '/public/images/logos/icon-chatgpt.svg';
+import LogoPerplexity from '/public/images/logos/icon-perplexity.svg';
+import LogoDatabricks from '/public/images/logos/icon-databricks.svg';
+import LogoPowerbi from '/public/images/logos/icon-powerbi.svg'
 
+// import Latentview from '/public/images/logos/latentview.png'
 import Smartbridge from '/public/images/logos/smartbridge.png';
 import Devtown from '/public/images/logos/devtown.png';
 
@@ -101,16 +108,48 @@ export const SOCIAL_LINKS_II= [
 export const TECHNOLOGIES: TechDetails[] = [
 
   {
-    label: 'Java',
-    logo: LogoJava,
-    url: 'https://www.java.com/en/',
-  },
-
-  {
     label: 'Python',
     logo: LogoPython,
     url: 'https://www.python.org/',
   },
+
+  {
+    label: 'MySQL',
+    logo: LogoMySQL,
+    url: 'https://www.mysql.com/',
+  },
+
+  {
+    label: 'AWS',
+    logo: LogoAWS,
+    darkModeLogo: LogoAWSLight,
+    url: 'https://aws.amazon.com/',
+  },
+
+  {
+    label: 'Google Cloud',
+    logo: LogoGCP,
+    url: 'https://cloud.google.com/',
+  },
+
+  {
+    label: 'Databricks',
+    logo: LogoDatabricks,
+    url: 'https://www.databricks.com/',
+  },
+
+  {
+    label: 'PowerBI',
+    logo: LogoPowerbi,
+    url: 'https://app.powerbi.com/',
+  },
+  
+  {
+    label: 'Java',
+    logo: LogoJava,
+    url: 'https://www.java.com/en/',
+  },
+  
   {
     label: 'HTML',
     logo: LogoHTML,
@@ -167,25 +206,6 @@ export const TECHNOLOGIES: TechDetails[] = [
   },
 
   {
-    label: 'MySQL',
-    logo: LogoMySQL,
-    url: 'https://www.mysql.com/',
-  },
-  
-  {
-    label: 'AWS',
-    logo: LogoAWS,
-    darkModeLogo: LogoAWSLight,
-    url: 'https://aws.amazon.com/',
-  },
-
-  {
-    label: 'Google Cloud',
-    logo: LogoGCP,
-    url: 'https://cloud.google.com/',
-  },
-
-  {
     label: 'Salesforce',
     logo: LogoSalesforce,
     url: 'https://www.salesforce.com/in/',
@@ -208,6 +228,24 @@ export const TECHNOLOGIES: TechDetails[] = [
     label: 'Postman',
     logo: LogoPostman,
     url: 'https://www.postman.com/',
+  },
+
+  {
+    label: 'Gemini',
+    logo: LogoGemini,
+    url: 'https://gemini.google.com/app',
+  },
+
+  {
+    label: 'ChatGPT',
+    logo: LogoChatgpt,
+    url: 'https://chatgpt.com/',
+  },
+
+  {
+    label: 'Claude',
+    logo: LogoClaude,
+    url: 'https://claude.ai/new',
   },
 ];
 
