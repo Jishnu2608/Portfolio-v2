@@ -33,9 +33,9 @@ const AboutMeSection = () => {
             A little about me :
           </Typography>
           <Typography>
-            Hello! I'm a data professional with a strong focus on analytics and data engineering, currently working at LatentView Analytics. I specialize in building scalable data pipelines and crafting insightful dashboards that translate complex datasets into actionable business decisions.
+            Hello! I&apos;m a data professional with a strong focus on analytics and data engineering, currently working at LatentView Analytics. I specialize in building scalable data pipelines and crafting insightful dashboards that translate complex datasets into actionable business decisions.
 I enjoy working at the intersection of data and strategy — transforming raw, fragmented data into structured, reliable systems and meaningful visual narratives. My experience includes designing ETL workflows, implementing data validation frameworks, and developing analytics solutions that drive clarity and impact.
-My journey into the data space began in 2021, and it has evolved into a deep interest in modern data ecosystems. At present, I'm working extensively with tools and technologies like SQL, Python, Databricks, Apache Spark, and Power BI, while continuing to explore advanced concepts in data architecture and cloud-based solutions.
+My journey into the data space began in 2021, and it has evolved into a deep interest in modern data ecosystems. At present, I&apos;m working extensively with tools and technologies like SQL, Python, Databricks, Apache Spark, and Power BI, while continuing to explore advanced concepts in data architecture and cloud-based solutions.
 
           </Typography>
 
