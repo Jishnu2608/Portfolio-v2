@@ -291,7 +291,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logoAlt: 'Latentview Analytics',
     position: 'Data Analyst',
     startDate: new Date(2025, 9),
-    endDate: 'Present',
+    currentlyWorkHere: true,
     summary: [
       'Engineered an end-to-end Medallion Data Lake architecture (Landing → Raw → Staging) on Databricks to centralize fragmented fleet telemetry, implementing SHA-256 masking for PII compliance and enforcing 7-decimal GPS precision for enhanced tracking accuracy.',
       'Developed a metadata-driven ETL framework using configuration-based control files to automate schema validation and data masking, integrated with a pre/post-validation system and DAG orchestration to ensure 100% data integrity.',
