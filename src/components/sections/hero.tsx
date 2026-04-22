@@ -31,13 +31,15 @@ const HeroSection = () => {
               <span className="inline-block animate-waving-hand">👋</span>
             </Typography>
             <Typography>
-            I&apos;m a frontend developer with a passion for crafting remarkable digital experiences 
-            that are both fast and visually stunning. My expertise lies in React.js and Node.js, 
-            and I&apos;ve been dedicated to this craft for over 2 years. While I thoroughly enjoy creating 
-            web applications, I&apos;m also aspiring to expand my horizons. I&apos;m currently working towards 
-            becoming an AWS Certified Cloud Solutions Architect and embarking on a Salesforce Trailhead 
-            expedition. Embracing the world of cloud computing and mastering Salesforce&apos;s capabilities 
-            is the exciting new chapter I&apos;m eager to explore in my career journey.
+            I&apos;m a data professional with a strong focus on analytics and data engineering, currently working at 
+              LatentView Analytics. I specialize in building scalable data pipelines and crafting insightful dashboards 
+              that translate complex datasets into actionable business decisions. I enjoy working at the intersection of 
+              data and strategy — transforming raw, fragmented data into structured, reliable systems and meaningful 
+              visual narratives. My experience includes designing ETL workflows, implementing data validation frameworks, 
+              and developing analytics solutions that drive clarity and impact. My journey into the data space began in 
+              2021, and it has evolved into a deep interest in modern data ecosystems. At present, I&apos;m working extensively 
+              with tools and technologies like SQL, Python, Databricks, Apache Spark, and Power BI, while continuing to 
+              explore advanced concepts in data architecture and cloud-based solutions.
             </Typography>
           </div>
           <div className="flex flex-col gap-2">
