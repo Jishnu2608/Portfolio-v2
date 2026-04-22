@@ -14,7 +14,7 @@ export type ExperienceDetails = {
   position: string;
   currentlyWorkHere?: boolean;
   startDate: Date;
-  endDate?: Date | string;
+  endDate?: Date | null;
   summary: string[];
 };
 
@@ -25,7 +25,7 @@ export type EducationDetails = {
   position: string;
   currentlyWorkHere?: boolean;
   startDate: Date;
-  endDate?: Date | string;
+  endDate?: Date;
   summary: string[];
 };
 
