@@ -33,28 +33,26 @@ const AboutMeSection = () => {
             A little about me :
           </Typography>
           <Typography>
-            Hello! I&apos;m a data professional with a strong focus on analytics and data engineering, currently working at LatentView Analytics. I specialize in building scalable data pipelines and crafting insightful dashboards that translate complex datasets into actionable business decisions.
-I enjoy working at the intersection of data and strategy — transforming raw, fragmented data into structured, reliable systems and meaningful visual narratives. My experience includes designing ETL workflows, implementing data validation frameworks, and developing analytics solutions that drive clarity and impact.
-My journey into the data space began in 2021, and it has evolved into a deep interest in modern data ecosystems. At present, I&apos;m working extensively with tools and technologies like SQL, Python, Databricks, Apache Spark, and Power BI, while continuing to explore advanced concepts in data architecture and cloud-based solutions.
+            Hello! I&apos;m a data professional currently working at LatentView Analytics, with a 
+            strong focus on analytics and data engineering, while also maintaining a solid foundation in 
+            frontend development. I build scalable data pipelines and insightful dashboards to turn complex 
+            data into actionable decisions, and I enjoy extending that work into clean, intuitive web interfaces 
+            when needed. My experience spans ETL design, data validation frameworks, and modern data stacks 
+            including SQL, Python, Databricks, Apache Spark, and Power BI, with a growing interest in cloud-based 
+            data architecture.
 
           </Typography>
 
           <Typography>
-          Collaboration is my strong suit. I find great joy in working closely with teams and delving into collaborative projects. 
-          Learning is my constant pursuit, and I always strive to stay updated with the latest tech trends.
+          I thrive in collaborative environments and enjoy working closely with teams to solve problems 
+            end-to-end — from data ingestion to visualization. I&apos;m constantly learning and keeping up 
+            with evolving tools and best practices in both data and web ecosystems.
           </Typography>
 
           <Typography>
-            Away from the computer screen, you&apos;ll often find me online, reading up on tech articles. 
-            Alternatively, I might be holding a camera, indulging in some photography. Music is another passion of mine - 
-            I thoroughly enjoy playing the piano and guitar. On the achievement front, I&apos;ve earned recognition in the world of art. 
-            I&apos;ve secured top 3 positions in over 25 painting competitions at both state and district levels. Additionally, I&apos;ve participated 
-            in notable photography competitions.
-          </Typography>
-
-          <Typography>
-          So, that&apos;s a glimpse into who I am - a developer, a student, an eager learner, and someone who appreciates the finer aspects of life like art and music. 
-          Let&apos;s connect and have a chat, whether it&apos;s about tech or anything else that piques your interest!
+            Outside of work, I spend time exploring tech content, practicing photography, 
+            and playing the piano and guitar. I&apos;ve also earned top 3 positions in over 25 state and 
+            district-level painting competitions, along with participation in photography contests.
           </Typography>
          
         </div>
