@@ -15,7 +15,7 @@ const HeroSection = () => {
           <div className="relative h-[300px] w-[280px] md:h-[360px] md:w-[320px]">
             <Image
               src={Headshot}
-              alt="Headshot of Sagar"
+              alt="Headshot of Jishnudeep"
               className="absolute z-10 h-[280px] w-[240px] border-8 border-gray max-md:left-5 md:left-0 md:top-0 md:h-[320px] md:w-[280px]"
               style={{ objectFit: 'cover' }}
             ></Image>
@@ -31,21 +31,16 @@ const HeroSection = () => {
               <span className="inline-block animate-waving-hand">👋</span>
             </Typography>
             <Typography>
-            I&apos;m a data professional with a strong focus on analytics and data engineering, currently working at 
-              LatentView Analytics. I specialize in building scalable data pipelines and crafting insightful dashboards 
-              that translate complex datasets into actionable business decisions. I enjoy working at the intersection of 
-              data and strategy — transforming raw, fragmented data into structured, reliable systems and meaningful 
-              visual narratives. My experience includes designing ETL workflows, implementing data validation frameworks, 
-              and developing analytics solutions that drive clarity and impact. My journey into the data space began in 
-              2021, and it has evolved into a deep interest in modern data ecosystems. At present, I&apos;m working extensively 
-              with tools and technologies like SQL, Python, Databricks, Apache Spark, and Power BI, while continuing to 
-              explore advanced concepts in data architecture and cloud-based solutions.
+            I&apos;m a data professional at LatentView Analytics specializing in analytics and data engineering. 
+              I build scalable data pipelines and impactful dashboards that turn complex data into actionable 
+              insights, bridging the gap between data and business strategy.
+
             </Typography>
           </div>
           <div className="flex flex-col gap-2">
             <div className="flex gap-2">
               <MapPin className="stroke-gray-600" />
-              <Typography>Tezpur, Assam 🔁 Bhopal, Madhya Pradesh</Typography>
+              <Typography>Tezpur, Assam 🔁 Chennai, Tamil Nadu</Typography>
             </div>
 
             <div className="flex items-center gap-2">
