@@ -33,10 +33,10 @@ const AboutMeSection = () => {
             A little about me :
           </Typography>
           <Typography>
-            Hello! I&apos;m a passionate developer with a strong focus on frontend development and a growing interest in cloud solutions. 
-            I derive great satisfaction from bridging the technical and visual elements of digital products. Currently, I&apos;m a proud student at Vellore Institute of Technology, Bhopal. 
-            My journey into the world of development began in 2021, and it&apos;s been an incredibly fulfilling experience. 
-            At the moment, I&apos;m immersing myself in Next.js, TailwindCSS and TypeScript - both are incredibly exciting areas to explore.
+            Hello! I'm a data professional with a strong focus on analytics and data engineering, currently working at LatentView Analytics. I specialize in building scalable data pipelines and crafting insightful dashboards that translate complex datasets into actionable business decisions.
+I enjoy working at the intersection of data and strategy — transforming raw, fragmented data into structured, reliable systems and meaningful visual narratives. My experience includes designing ETL workflows, implementing data validation frameworks, and developing analytics solutions that drive clarity and impact.
+My journey into the data space began in 2021, and it has evolved into a deep interest in modern data ecosystems. At present, I'm working extensively with tools and technologies like SQL, Python, Databricks, Apache Spark, and Power BI, while continuing to explore advanced concepts in data architecture and cloud-based solutions.
+
           </Typography>
 
           <Typography>
