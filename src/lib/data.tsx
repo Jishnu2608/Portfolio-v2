@@ -28,9 +28,9 @@ import LogoPerplexity from 'public/images/logos/icon-perplexity.svg';
 import LogoDatabricks from 'public/images/logos/icon-databricks.svg';
 import LogoPowerbi from 'public/images/logos/icon-powerbi.svg';
 
-// import Latentview from 'public/images/logos/latentview.png'
+import Latentview from 'public/images/logos/latentview.png'
 import Smartbridge from 'public/images/logos/smartbridge.png';
-import Devtown from 'public/images/logos/devtown.png';
+// import Devtown from 'public/images/logos/devtown.png';
 
 import LogoSchool from 'public/images/logos/logo-school.svg';
 import LogoCollege from 'public/images/logos/logo-college.svg';
@@ -252,11 +252,11 @@ export const EDUCATION: EducationDetails[] = [
   {
     logo: LogoUniversity,
     logoAlt: 'VIT Bhopal',
-    position: 'Vellore Institute of Technology, Bhopal',
+    position: 'VIT Bhopal University',
     startDate: new Date(2020, 8),
-    endDate: new Date(2024, 8),
+    endDate: new Date(2024, 9),
     summary: [
-      'CGPA : 8.74',
+      'CGPA : 8.80',
       'Relevant Coursework: Software Engineering; Operating Systems; DBMS; Algorithms',
     ],
   },
@@ -285,6 +285,18 @@ export const EDUCATION: EducationDetails[] = [
 ];
 
 export const EXPERIENCES: ExperienceDetails[] = [
+  
+  {
+    logo: Latentview,
+    logoAlt: 'Latentview Analytics',
+    position: 'Data Analyst',
+    startDate: new Date(2025, 9),
+    endDate: 'Present',
+    summary: [
+      'Engineered an end-to-end Medallion Data Lake architecture (Landing → Raw → Staging) on Databricks to centralize fragmented fleet telemetry, implementing SHA-256 masking for PII compliance and enforcing 7-decimal GPS precision for enhanced tracking accuracy.',
+      'Developed a metadata-driven ETL framework using configuration-based control files to automate schema validation and data masking, integrated with a pre/post-validation system and DAG orchestration to ensure 100% data integrity.',
+    ],
+  },
   {
     logo: Smartbridge,
     logoAlt: 'smartbridge',
@@ -292,21 +304,8 @@ export const EXPERIENCES: ExperienceDetails[] = [
     startDate: new Date(2023, 4),
     endDate: new Date(2023, 6),
     summary: [
-      'Excelled in Salesforce CRM, optimizing operations and workflows through comprehensive training and practical experience.',
-      'Customized and integrated Salesforce functionalities, enhancing platform capabilities and user experiences.',
-      'Developed impactfulreports and dashboards, delivering actionable insights to stakeholders forinformed decisions.',
-    ],
-  },
-  {
-    logo: Devtown,
-    logoAlt: 'devtown',
-    position: 'Full stack Web Dev Internship',
-    startDate: new Date(2021, 6),
-    endDate: new Date(2021, 8),
-    summary: [
-      'Collaborated in a dynamic team to conceive, design, and implement innovative website features, enhancing web development proficiency during an intensive training program.',
-      "Thoroughly ensured the smooth functionality of the company's website through rigorous testing and troubleshooting, gaining practical experience in website performance maintenance.",
-      'Contributed to suggesting and implementing user-centric improvements, thereby enhancing skills in optimizing the user experience and increasing engagement.',
+      'Enhanced Salesforce CRM operations by actively participating in a rigorous training program and applying hands-on expertise, resulting in a 15% increase in operational efficiency.',
+      'Optimized and integrated Salesforce features to elevate user experience, encompassing design, development and testing, achieving a 10% improvement in user satisfaction, design and development.',
     ],
   },
 ];
