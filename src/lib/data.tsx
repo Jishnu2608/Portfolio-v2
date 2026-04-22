@@ -30,7 +30,6 @@ import LogoPowerbi from 'public/images/logos/icon-powerbi.svg';
 
 import Latentview from 'public/images/logos/latentview.png'
 import Smartbridge from 'public/images/logos/smartbridge.png';
-// import Devtown from 'public/images/logos/devtown.png';
 
 import LogoSchool from 'public/images/logos/logo-school.svg';
 import LogoCollege from 'public/images/logos/logo-college.svg';
@@ -41,6 +40,7 @@ import ProjectSnapscape from 'public/images/project-snapscape.png';
 import ProjectCryptotracker from 'public/images/project-cryptotracker.png';
 import ProjectWeather from 'public/images/project-weather analysis.png';
 
+import CertificateDatabricks from 'public/images/Databricks Data Engineer Certificate.png';
 import CertificateAWS from 'public/images/Certificate-AWS.png';
 import CertificateSQL from 'public/images/Certificate-SQL.png';
 import CertificateAI from 'public/images/Certificate-Helsinki.png';
@@ -380,6 +380,21 @@ export const PROJECTS: ProjectDetails[] = [
 ];
 
 export const CERTIFICATES: CertificateDetails[] = [
+  {
+    name: 'Databricks Certified Data Engineer Associate',
+    description:
+      'The Databricks Certified Data Engineer Associate validates your ability to build and manage data pipelines using the Databricks platform. It focuses on core skills like working with Apache Spark, Delta Lake, data transformations, and basic ETL workflows—making it ideal for entry-level data engineers working with modern data stacks.',
+    previewImage: CertificateDatabricks,
+    technologies: [
+      'Lakehouse Architecture',
+      'Autoloader',
+      'Spark Declarative Pipeline',
+      'Delta Lake',
+      'Unity Catalog',
+      'Delta Share',
+      'Workflows',
+    ],
+  },
   {
     name: 'AWS Cloud Practitioner',
     description:
